@@ -1,0 +1,9 @@
+
+{{#if this.addNewPost}}
+  {{input value=title id="title" placeholder="title"}}
+  {{input value=author id="author" placeholder="author"}}
+  {{input value=category id="category" placeholder="category"}}
+  <button {{action 'save1'}}>Add Post</button>
+{{else}}
+  <button {{action 'newFormShow'}}>New Post</button>
+{{/if}}

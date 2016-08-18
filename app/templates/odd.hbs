@@ -1,0 +1,10 @@
+<h1>odd</h1>
+
+{{#each model as |post|}}
+  {{#link-to 'post' post}}
+    {{post-tile post=post}}
+  {{/link-to}}
+  {{edit-post post=post update="update" delete="delete"}}
+  <hr>
+{{/each}}
+{{new-post save2="save3"}}

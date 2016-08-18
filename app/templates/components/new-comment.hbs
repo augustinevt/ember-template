@@ -1,0 +1,7 @@
+{{#if showNewCommentForm}}
+  {{input value=body id="comment-body"}}
+  {{input value=author id="comment-author"}}
+  <button {{action 'save1'}}>Save</button>
+{{else}}
+  <button {{action 'showNewForm'}}>Add Comment</button>
+{{/if}}

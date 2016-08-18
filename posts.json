@@ -1,0 +1,29 @@
+{
+  "posts": [
+    {
+      "title": "one",
+      "author": "amy",
+      "category": "even"
+    },
+    {
+      "title": "two",
+      "author": "fred",
+      "category": "odd"
+    },
+    {
+      "title": "three",
+      "author": "raul",
+      "category": "even"
+    },
+    {
+      "title": "four",
+      "author": "anna",
+      "category": "odd"
+    },
+    {
+      "title": "five",
+      "author": "archie",
+      "category": "even"
+    }
+  ]
+}

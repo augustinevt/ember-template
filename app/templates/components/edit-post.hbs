@@ -1,0 +1,9 @@
+{{#if editFormShow}}
+  {{input value=title id="title" placeholder=post.title}}
+  {{input value=author id="author" placeholder=post.author}}
+  {{input value=category id="category" placeholder=post.category}}
+  <button {{action 'update' post}}>Save</button>
+{{else}}
+  <button {{action 'showEdit'}}>Edit</button>
+{{/if}}
+<button {{ action 'delete' post }}>Delete</button>

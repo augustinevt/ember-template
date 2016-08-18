@@ -1,0 +1,10 @@
+ <h1>{{model.title}}</h1>
+
+
+{{new-comment save1="save2" post=model}}
+
+{{#each model.comments as |comment|}}
+  {{comment-tile comment=comment}}
+  {{edit-comment comment=comment deleteComment="deleteComment"}}
+  <hr>
+{{/each}}
