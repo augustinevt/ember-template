@@ -1,7 +1,6 @@
 # Ember-template
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This could easily serve as a starter for an Ember.js app
 
 ## Prerequisites
 
